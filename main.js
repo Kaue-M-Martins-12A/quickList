@@ -1,4 +1,4 @@
-/* criou esse diabo aqui que eu fiquei 1 hora procurando um erro minusculo depos */
+/* criou esse diabo aqui que eu fiquei 1 hora procurando um erro minusculo dps*/
 
 let itens = []
 
@@ -22,6 +22,8 @@ function addItem() {
     showItensList()
 }
 
+
+/* a parte do diabo em que eu fiquei procurando erro*/
 function showItensList() {
     const sectionList = document.querySelector(".list")
     sectionList.textContent = ""
