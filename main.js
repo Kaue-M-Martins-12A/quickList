@@ -60,7 +60,7 @@ function checkItem(itemName){
 function removeItem(itemName) {
     const itemIdex = itens.findIndex((item) => item.name === itemName)
     const divWarning = document.querySelector(".warning")
-
+    /* função para sumir depois de 4 segundos*/
     divWarning.classList.remove("hide-warning")
     setTimeout(() => {
         divWarning.classList.add("hide-warning")
