@@ -215,10 +215,13 @@ main {
     }
 }
 
+/* "fim" da estilização do waning */
+
 .hide-warning {
     opacity: 0;
     transform: translateY(-10px);
 }
+
 
 @media(min-width: 627px) {
     header {
