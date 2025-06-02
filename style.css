@@ -116,6 +116,8 @@ main {
     }
 }
 
+/*terminou de mexer na versão mobile*/
+
 .list {
     .item {
         background: var(--background-secondary);
