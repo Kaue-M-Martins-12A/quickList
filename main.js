@@ -80,6 +80,8 @@ function addHideWarningClass() {
     document.querySelector(".warning").classList.add("hide-warning")
 }
 
+/* armazenar as informações mesmo se a pagina fechar */
+
 function verifyLocalStorageItens() {
     const localStorageItens = localStorage.getItem("itens")
 
