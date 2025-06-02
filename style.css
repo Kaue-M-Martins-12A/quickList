@@ -216,7 +216,7 @@ main {
 }
 
 /* "fim" da estilização do waning */
-
+/*a div warning virou hide-warning*/
 .hide-warning {
     opacity: 0;
     transform: translateY(-10px);
