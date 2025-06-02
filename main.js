@@ -5,6 +5,7 @@ let itens = []
 function addItem() {
     const itemName = document.querySelector("#item").value
 
+    /* é obrigatorio preencher o campo para criar item*/
     if (itemName === ""){
         alert("Digite um item válido")
         return
