@@ -50,6 +50,7 @@ function showItensList() {
     localStorage.setItem("itens", JSON.stringify(itens))
 }
 
+/* checa o item (passa o tracinho)*/
 function checkItem(itemName){
     const item = itens.find((item) => item.name === itemName)
     item.checked = !item.checked
