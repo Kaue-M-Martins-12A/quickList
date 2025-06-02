@@ -56,6 +56,7 @@ function checkItem(itemName){
     showItensList()
 }
 
+/*função de remover o item*/
 function removeItem(itemName) {
     const itemIdex = itens.findIndex((item) => item.name === itemName)
     const divWarning = document.querySelector(".warning")
