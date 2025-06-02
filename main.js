@@ -1,3 +1,5 @@
+/* criou esse diabo aqui que eu fiquei 1 hora procurando um erro minusculo depos*/
+
 let itens = []
 
 function addItem() {
