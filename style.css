@@ -118,6 +118,7 @@ main {
 
 /*terminou de mexer na versão mobile*/
 
+/*estilização da section de lista*/
 .list {
     .item {
         background: var(--background-secondary);
