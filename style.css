@@ -29,6 +29,8 @@ body {
     background: var(--background-primary);
 }
 
+/*estilizou o header e mexeu um pouco no body*/
+
 header {
     margin-bottom: 4.4rem;
     max-width: 62.7rem;
