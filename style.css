@@ -183,6 +183,7 @@ main {
 
 /*terminou de mexer na section list--*/
 
+/*começou a estilizar a div warning*/
 .warning{
     background: var(--color-danger);
     color: var(--always-white);
