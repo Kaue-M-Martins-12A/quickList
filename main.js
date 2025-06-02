@@ -73,6 +73,7 @@ function removeItem(itemName) {
     showItensList()
 }
 
+/* fechar o aviso*/
 function addHideWarningClass() {
     document.querySelector(".warning").classList.add("hide-warning")
 }
