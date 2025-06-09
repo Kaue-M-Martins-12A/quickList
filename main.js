@@ -37,6 +37,12 @@ function showItensList() {
     })
 }
 
+function checkItem(itemName) {
+    const item = items.find((item) => item.name === itemName)
+    item.checked = !item.checked
+    showItemsList()
+}
+
 
 function removeItem(itemName) {
     const itemIdex = itens.findIndex((item) => item.name === itemName)
