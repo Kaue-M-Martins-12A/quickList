@@ -12,19 +12,60 @@
 </head>
 
 <body>
- <header>
+    <header>
         <img src="./assets/logo.png" alt="Logo quikList">
         <button>
-           <i class="ph ph-arrow-left"></i>
-           Voltar
+            <i class="ph ph-arrow-left"></i>
+            Voltar
         </button>
         <h1>Compras da semana</h1>
     </header>
 
-     <main> 
+    <main>
         <section class="add-item">
             <input type="text" placeholder="Adicione um novo item" id="item">
             <button>Adicionar item</button>
+        </section>
+
+        <section class="list"> 
+            <div class="item">
+                <div>
+                    <input type="checkbox" name="list" id="item-1">
+                    <div class="custom-checkbox">
+                        <img src="./assets/checked.svg" alt="checked">
+                    </div>
+                    <label for="item-1">Maçã</label>
+                </div>
+                <button>
+                    <img src="./assets/trash-icon.svg" alt="">
+                </button>
+            </div>
+
+            <div class="item">
+                <div>
+                    <input type="checkbox" name="list" id="item-2">
+                    <div class="custom-checkbox">
+                        <img src="./assets/checked.svg" alt="checked">
+                    </div>
+                    <label for="item-2">Melancia</label>
+                </div>
+                <button>
+                    <img src="./assets/trash-icon.svg" alt="">
+                </button>
+            </div>
+
+            <div class="item">
+                <div>
+                    <input type="checkbox" name="list" id="item-3">
+                    <div class="custom-checkbox">
+                        <img src="./assets/checked.svg" alt="checked">
+                    </div>
+                    <label for="item-3">Melão</label>
+                </div>
+                <button>
+                    <img src="./assets/trash-icon.svg" alt="">
+                </button>
+            </div>
         </section>
     </main>
 </body>
