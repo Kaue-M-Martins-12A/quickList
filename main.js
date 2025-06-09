@@ -12,7 +12,7 @@ function addItem() {
 
     document.querySelector("#item").value = ""
 
-   showItensList()
+    showItensList()
 }
 
 function showItensList() {
@@ -49,6 +49,10 @@ function removeItem(itemName) {
     const divWarning = document.querySelector(".warning")
 
     divWarning.classList.remove("hide-warning")
+
+    setTimeout(() => {
+        divWarning.classList.add("hide-warning")
+    }, 4000)
 
     if (itemIdex !== -1) {
         itens.splice(itemIdex, 1)
