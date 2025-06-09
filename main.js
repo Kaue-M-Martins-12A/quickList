@@ -29,10 +29,24 @@ function showItensList() {
                     </div>
                     <label for="item-${index}">${item.name}</label>
                 </div>
-                <button>
+                <button onclick="removeItem('${item.name}')">
                     <img src="./assets/trash-icon.svg" alt="">
                 </button>
             </div>
         `
     })
+}
+
+
+function removeItem(itemName) {
+    const itemIdex = itens.findIndex((item) => item.name === itemName)
+    const divWarning = document.querySelector(".warning")
+
+    divWarning.classList.remove("hide-warning")
+
+    if (itemIdex !== -1) {
+        itens.splice(itemIdex, 1)
+    }
+
+    showItensList()
 }
